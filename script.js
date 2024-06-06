@@ -1,3 +1,5 @@
+console.log('JavaScript is running.');
+
 document.addEventListener("DOMContentLoaded", function() {
     function loadPage(page) {
         console.log(`Loading page: ${page}`);
