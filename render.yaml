@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: debj
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: ..  # Spécifiez ici le répertoire où se trouve votre package.json si ce n'est pas la racine
